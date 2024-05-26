@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SGS",
+    " D "
+  ],
+  "key": {
+    "S": {
+      "item": "project:svinets"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+
+    "D": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "project:radsuit_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Tutorial-10-1.16.5-main
+Implementation-Version: 1.16.5-1.0.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2024-05-27T01:55:20+0300
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

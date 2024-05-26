@@ -1,0 +1,92 @@
+{
+  "surface_builder": "minecraft:grass",
+  "depth": 0.25,
+  "scale": 0.1,
+  "temperature": 0.8,
+  "downfall": 0.2,
+  "precipitation": "rain",
+  "category": "plains",
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0.1,
+  "effects": {
+    "sky_color": 11639824,
+    "fog_color": 6322459,
+    "water_color": 4144909,
+    "water_fog_color": 5849874,
+    "grass_color": 9990703
+  },
+
+"starts": [
+
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "project:mutant",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "project:zombon",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "project:rad_skeleton",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "project:rad_horse",
+        "weight": 90,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:lake_lava",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_double",
+      "minecraft:ore_magma",
+      "minecraft:ore_dirt",
+      "minecraft:ore_andesite",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_emerald",
+      "minecraft:ore_gravel",
+      "minecraft:ore_iron",
+      "minecraft:ore_redstone",
+      "minecraft:ore_lapis",
+      "minecraft:ore_diamond",
+      "minecraft:ore_coal",
+      "project:radium",
+      "project:lead"
+
+
+    ]
+  ]
+}

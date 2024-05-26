@@ -1,0 +1,156 @@
+[16мая2024 19:45:12.526] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.0, --assetIndex, 1.16, --assetsDir, C:\Users\roote\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[16мая2024 19:45:12.530] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_202 by Oracle Corporation
+[16мая2024 19:45:12.994] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[16мая2024 19:45:13.050] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/roote/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.2/1cf212283d26f706fd3074318870bebd14d2a9ed/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[16мая2024 19:45:15.485] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\roote\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[16мая2024 19:45:22.774] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16мая2024 19:45:23.569] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[16мая2024 19:45:23.794] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[16мая2024 19:45:24.659] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.0, for MC 1.16.5 with MCP 20210115.111550
+[16мая2024 19:45:24.659] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.0 Initialized
+[16мая2024 19:45:25.501] [Render thread/INFO] [net.project.project.Project/]: HELLO from Register Block
+[16мая2024 19:45:25.625] [Render thread/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: null
+	Index: 2
+	Listeners:
+		0: NORMAL
+		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@37b1c5bc handleEvent(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@29b3dc92 handleEvent(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@60d7c08 handleEvent(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@471a8a5b handleEvent(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		5: ASM: class net.project.project.events.ModEventBusEvents onRegisterEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		6: ASM: class net.project.project.events.ModEventBusEvents1 onRegisterEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		7: ASM: class net.project.project.events.ModEventBusEvents2 onRegisterEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		8: ASM: class net.project.project.potion.RadiationResistancePotionEffect registerEffect(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		9: ASM: class net.project.project.potion.RadiationSicknessPotionEffect registerEffect(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		10: ASM: class net.project.project.potion.RadiationSicknessPotionPotion registerPotion(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+		11: ASM: class net.project.project.Project$RegistryEvents onBlocksRegistry(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+java.lang.ExceptionInInitializerError
+	at net.project.project.item.ModItems.lambda$static$8(ModItems.java:49)
+	at net.minecraftforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:124)
+	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:200)
+	at net.minecraftforge.registries.DeferredRegister.access$000(DeferredRegister.java:61)
+	at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:172)
+	at net.minecraftforge.eventbus.ASMEventHandler_0_EventDispatcher_handleEvent_Register.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
+	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:56)
+	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:40)
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:249)
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:236)
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:202)
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$1(ClientModLoader.java:103)
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:123)
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:103)
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:442)
+	at net.minecraft.client.main.Main.main(Main.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108)
+Caused by: java.lang.NullPointerException: null value in entry: RADSUIT=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.ImmutableMapEntry.<init>(ImmutableMapEntry.java:49)
+	at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:172)
+	at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:248)
+	at net.project.project.item.custom.ModArmorItem.<clinit>(ModArmorItem.java:25)
+	... 33 more
+
+[16мая2024 19:45:25.627] [Render thread/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegistryEvent.Register<minecraft:item> dispatch for modid project
+java.lang.ExceptionInInitializerError: null
+	at net.project.project.item.ModItems.lambda$static$8(ModItems.java:49) ~[main/:?]
+	at net.minecraftforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:124) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:200) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.registries.DeferredRegister.access$000(DeferredRegister.java:61) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:172) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.eventbus.ASMEventHandler_0_EventDispatcher_handleEvent_Register.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:36.2]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) ~[?:1.8.0_202]
+	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:56) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:40) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:249) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:236) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:202) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$1(ClientModLoader.java:103) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:123) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:103) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:442) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.0_mapped_snapshot_20210309-1.16.5-recomp.jar:?]
+Caused by: java.lang.NullPointerException: null value in entry: RADSUIT=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34) ~[guava-21.0.jar:?]
+	at com.google.common.collect.ImmutableMapEntry.<init>(ImmutableMapEntry.java:49) ~[guava-21.0.jar:?]
+	at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:172) ~[guava-21.0.jar:?]
+	at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:248) ~[guava-21.0.jar:?]
+	at net.project.project.item.custom.ModArmorItem.<clinit>(ModArmorItem.java:25) ~[?:?]
+	... 33 more
+[16мая2024 19:45:25.955] [Render thread/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, rolling back to VANILLA state
+[16мая2024 19:45:27.190] [Render thread/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, roll back to VANILLA complete
+[16мая2024 19:45:27.198] [Render thread/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event LOAD_REGISTRIES, 1 errors found
+[16мая2024 19:45:27.270] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundLoadEvent to a broken mod state
+[16мая2024 19:45:27.482] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ColorHandlerEvent$Block to a broken mod state
+[16мая2024 19:45:27.493] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ColorHandlerEvent$Item to a broken mod state
+[16мая2024 19:45:28.691] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ParticleFactoryRegisterEvent to a broken mod state
+[16мая2024 19:45:28.733] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[16мая2024 19:45:28.811] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default
+[16мая2024 19:45:29.018] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelRegistryEvent to a broken mod state
+[16мая2024 19:45:29.252] [Worker-Main-13/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:29.252] [Worker-Main-14/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:29.252] [Worker-Main-9/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:36.396] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.093] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.101] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.138] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.158] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.167] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.196] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[16мая2024 19:45:37.514] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[16мая2024 19:45:37.515] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[16мая2024 19:45:38.009] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[16мая2024 19:45:38.085] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.086] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16мая2024 19:45:38.086] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.086] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16мая2024 19:45:38.090] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.090] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16мая2024 19:45:38.093] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.093] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16мая2024 19:45:38.094] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.094] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16мая2024 19:45:38.095] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.096] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16мая2024 19:45:38.097] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:38.712] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelBakeEvent to a broken mod state
+[16мая2024 19:45:39.118] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16мая2024 19:45:39.120] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:39.121] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16мая2024 19:45:39.122] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:39.122] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16мая2024 19:45:39.122] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[16мая2024 19:45:39.163] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 59875a6e-701b-491b-b50b-9d81b2991ffd
+[16мая2024 19:45:39.164] [Render thread/INFO] [STDOUT/]: [net.minecraft.crash.CrashReport:makeCategoryDepth:227]: Negative index in crash report handler (21/23)
+[16мая2024 19:45:39.188] [Render thread/FATAL] [net.minecraftforge.fml.client.ClientModLoader/]: Crash report saved to .\crash-reports\crash-2024-05-16_19.45.39-fml.txt

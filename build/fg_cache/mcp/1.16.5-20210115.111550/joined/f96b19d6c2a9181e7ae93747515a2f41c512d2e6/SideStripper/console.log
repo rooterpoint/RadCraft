@@ -1,0 +1,9 @@
+JVM:         C:\Program Files\Java\jdk1.8.0_202\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\AccessTransformer\output.jar", "--output", "C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\SideStripper\output.jar", "--data", "C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\SideStripper\string_data.sas"
+Classpath:   C:\Users\roote\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.6\mergetool-1.1.6-fatjar.jar
+Working Dir: C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\AccessTransformer\output.jar
+Output: C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\SideStripper\output.jar
+Data:   C:\Users\roote\Desktop\Tutorial-10-1.16.5-main\build\fg_cache\mcp\1.16.5-20210115.111550\joined\f96b19d6c2a9181e7ae93747515a2f41c512d2e6\SideStripper\string_data.sas

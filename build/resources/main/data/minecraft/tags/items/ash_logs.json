@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "project:ash_log",
+    "project:ash_wood",
+    "project:stripped_ash_log",
+    "project:stripped_ash_wood"
+  ]
+}
